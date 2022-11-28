@@ -1,15 +1,14 @@
 import React from 'react';
-import CalculatorPage from './pages/calculator';
 
 // eslint-disable-next-line react/prefer-stateless-function
-class App extends React.Component {
+class Calculator extends React.Component {
   render() {
     return (
       <>
-        <CalculatorPage />
+        <h1>hio</h1>
       </>
     );
   }
 }
 
-export default App;
+export default Calculator;
