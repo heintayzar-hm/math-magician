@@ -33,7 +33,6 @@
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
-![](https://media.giphy.com/media/3F6V4WfEBeHsdTDcu3/giphy.gif)
 
 # 📖 [MathMagician] <a name="about-project"></a>
 
