@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { decodeHTMLEntities } from '../helper/util';
 import calculate from '../logic/calculate';
 
-function Calculator() {
+const Calculator = () => {
   const calculatorObj = {
     total: 0,
     next: null,
@@ -12,11 +12,11 @@ function Calculator() {
 
   const [getCalculatorObj, setCalculatorObj] = useState(calculatorObj);
 
-  function handleClick(e) {
+  const handleClick = (e) => {
     const calculateObj = { ...getCalculatorObj };
     const calculatedObj = calculate(calculateObj, e.target.innerText);
     setCalculatorObj(calculatedObj);
-  }
+  };
 
   const calculatorEl = [['AC', '+/-', '%', '÷'], [7, 8, 9, 'x'], [4, 5, 6, '-'], [1, 2, 3, '+'], [0, '.', '=']];
   const { total, next, operation } = getCalculatorObj;
@@ -59,6 +59,6 @@ function Calculator() {
       </section>
     </>
   );
-}
+};
 
 export default Calculator;
