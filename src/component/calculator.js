@@ -22,7 +22,7 @@ const Calculator = () => {
   const { total, next, operation } = getCalculatorObj;
   return (
     <>
-      <section id="calculator" className="lg:w-1/2 w-full">
+      <section id="calculator" className="w-full">
         <div className="w-full leading-[80px] bg-zinc-500 text-white text-right text-3xl">
           {
             (!total && !operation && !next) ? 0

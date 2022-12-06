@@ -20,9 +20,25 @@ const Navbar = () => {
     },
   ];
 
+  const style = {
+    nav: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-around',
+      padding: '10px',
+    },
+    h1: { color: 'red', fontSize: '30px', flexBasis: '40%' },
+    ul: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-around',
+      width: '100%',
+    },
+  };
   return (
-    <nav>
-      <ul>
+    <nav style={style.nav}>
+      <h1 style={style.h1}>Math Magician</h1>
+      <ul style={style.ul}>
         {links.map((link) => (
           <li key={link.id}>
             {' '}
