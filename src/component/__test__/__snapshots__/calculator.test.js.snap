@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders the initial state correctly 1`] = `
+<div>
+  <section
+    class="w-full"
+    id="calculator"
+  >
+    <div
+      class="w-full leading-[80px] bg-zinc-500 text-white text-right text-3xl"
+      data-testid="output"
+    >
+      0
+    </div>
+    <div
+      class="grid grid-cols-4  leading-[80px] text-center bg-slate-200"
+    >
+      <div>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="AC"
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="+/-"
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="%"
+          type="button"
+        >
+          %
+        </button>
+        <button
+          class="cursor-pointer bg-yellow-600 border-[1px] border-double border-gray-400"
+          data-testid="÷"
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="7"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="8"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="9"
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="cursor-pointer bg-yellow-600 border-[1px] border-double border-gray-400"
+          data-testid="x"
+          type="button"
+        >
+          x
+        </button>
+      </div>
+      <div>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="4"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="5"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="6"
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="cursor-pointer bg-yellow-600 border-[1px] border-double border-gray-400"
+          data-testid="-"
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="1"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="2"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="3"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="cursor-pointer bg-yellow-600 border-[1px] border-double border-gray-400"
+          data-testid="+"
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div>
+        <button
+          class="cursor-pointer col-span-2 text-center border-[1px] border-double border-gray-400"
+          data-testid="0"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="cursor-pointer border-[1px] border-double border-gray-400"
+          data-testid="."
+          type="button"
+        >
+          .
+        </button>
+        <button
+          class="cursor-pointer bg-yellow-600 border-[1px] border-double border-gray-400"
+          data-testid="="
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+`;
