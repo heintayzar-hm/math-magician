@@ -32,11 +32,11 @@
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
+
+![](https://media.giphy.com/media/DwnWBF6Ycyvh92iIko/giphy.gif)
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [MathMagician] <a name="about-project"></a>
-
-
 > The react Project for calculating numbers
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -62,7 +62,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
+[Live Version](https://heintayzar-hm.github.io/math-magician/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
