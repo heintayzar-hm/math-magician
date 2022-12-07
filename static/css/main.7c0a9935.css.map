@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7c0a9935.css","mappings":"yGAEA,EACE,2BAA+B,CAC/B,2BACF","sources":["index.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Lato&family=Sono:wght@200;300;400;500&display=swap');\n\n* {\n  font-family: 'Lato', sans-serif;\n  font-family: 'Sono', sans-serif;\n}"],"names":[],"sourceRoot":""}
