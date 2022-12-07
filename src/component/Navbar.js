@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { MdClose } from 'react-icons/md';
+import { FiMenu } from 'react-icons/fi';
 
 const Navbar = () => {
   const links = [
@@ -20,6 +22,16 @@ const Navbar = () => {
     },
   ];
 
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const handleToggle = () => {
+    setNavbarOpen((prev) => !prev);
+  };
+
+  const closeMenu = () => {
+    setNavbarOpen(false);
+  };
+
   const style = {
     nav: {
       display: 'flex',
@@ -30,27 +42,37 @@ const Navbar = () => {
     h1: { color: 'red', fontSize: '30px', flexBasis: '40%' },
     ul: {
       display: 'flex',
-      alignItems: 'center',
       justifyContent: 'space-around',
       width: '100%',
     },
   };
   return (
-    <nav style={style.nav}>
+    <nav style={style.nav} className="bg-black">
       <h1 style={style.h1}>Math Magician</h1>
-      <ul style={style.ul}>
-        {links.map((link) => (
-          <li key={link.id}>
-            {' '}
-            <NavLink
-              to={link.path}
-              style={({ isActive }) => ({ color: isActive ? 'red' : 'black' })}
-            >
-              {link.text}
-            </NavLink>
-          </li>
-        ))}
-      </ul>
+      <div className="grid grid-cols-1 w-full">
+        <button className="flex justify-end md:hidden" type="button" onClick={handleToggle}>
+          {navbarOpen ? (
+            <MdClose style={{ color: 'black', width: '40px', height: '40px' }} />
+          ) : (
+            <FiMenu style={{ color: '#7b7b7b', width: '40px', height: '40px' }} />
+          )}
+
+        </button>
+        <ul className={`${navbarOpen ? 'grid grid-cols-1 justify-items-center ' : 'hidden flex items-center justify-around'} w-full md:flex`}>
+          {links.map((link) => (
+            <li key={link.id}>
+              {' '}
+              <NavLink
+                to={link.path}
+                onClick={() => closeMenu()}
+                style={({ isActive }) => ({ color: isActive ? 'red' : 'white' })}
+              >
+                {link.text}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </div>
     </nav>
   );
 };
