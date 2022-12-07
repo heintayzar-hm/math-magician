@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<nav
+  style="display: flex; align-items: center; justify-content: space-around; padding: 10px;"
+>
+  <h1
+    style="color: red; font-size: 30px; flex-basis: 40%;"
+  >
+    Math Magician
+  </h1>
+  <ul
+    style="display: flex; align-items: center; justify-content: space-around; width: 100%;"
+  >
+    <li>
+       
+      <a
+        class=""
+        href="#/home"
+        style="color: black;"
+      >
+        Home
+      </a>
+    </li>
+    <li>
+       
+      <a
+        class=""
+        href="#/calculator"
+        style="color: black;"
+      >
+        Calculator
+      </a>
+    </li>
+    <li>
+       
+      <a
+        class=""
+        href="#/quote"
+        style="color: black;"
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

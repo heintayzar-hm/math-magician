@@ -21,7 +21,7 @@ class CalculatorPage extends React.Component {
     return (
       <>
         <main style={style.main}>
-          <h2 style={style.h2}>
+          <h2 style={style.h2} className="calculator">
             Let&apos;s Do Some Math,
           </h2>
           <div style={style.div}>
