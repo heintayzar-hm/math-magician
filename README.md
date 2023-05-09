@@ -62,7 +62,7 @@ The calculator and quote application built with React is a perfect tool for thos
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Live Version](https://heintayzar-hm.github.io/math-magician/)
+[Live Version](https://math-magician-ruby.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
