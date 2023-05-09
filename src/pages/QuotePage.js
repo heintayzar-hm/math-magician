@@ -1,5 +1,5 @@
 import React from 'react';
-
+import quotes from './constant';
 // eslint-disable-next-line react/prefer-stateless-function
 class QuotePage extends React.Component {
   render() {
@@ -21,8 +21,9 @@ class QuotePage extends React.Component {
       <>
         <main style={style.main}>
           <h2 style={style.h2}>
-            Mathematics is not about calculation, equations, computations, or algorithms,
-            It is about understanding --- Willian Paul Thurston
+            {
+              quotes[Math.floor(Math.random() * quotes.length)]
+            }
           </h2>
         </main>
       </>

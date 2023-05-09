@@ -37,7 +37,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [MathMagician] <a name="about-project"></a>
-> The react Project for calculating numbers
+The calculator and quote application built with React is a perfect tool for those who need to perform quick calculations and also want to stay motivated with inspiring quotes. The calculator component of the application is user-friendly and allows for easy input of mathematical expressions. The quotes component, on the other hand, displays a random quote each time the application is loaded, providing users with the daily dose of inspiration they need to tackle their day. With React's component-based architecture and efficient state management, this application is highly responsive and provides an excellent user experience. Whether you need to crunch numbers or just want some motivation, this calculator and quote application is the perfect tool for you.
 
 ## 🛠 Built With <a name="built-with"></a>
 

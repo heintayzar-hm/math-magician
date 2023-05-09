@@ -21,20 +21,18 @@ class HomePage extends React.Component {
         <main style={style.main}>
           <h2 style={style.h2}> Welcome To Our Application, I am Hein Tay Zar</h2>
           <p style={style.p}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Soluta eaque itaque unde minima alias a quam nulla cum natus,
-            labore, explicabo obcaecati nemo, nihil mollitia volup
-            tas harum voluptatibus ipsa maiores.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Soluta eaque itaque unde minima alias a quam nulla cum natus
-            , labore, explicabo obcaecati nemo, nihil mollitia volup
-            tas harum voluptatibus ipsa maiores.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sol
-            uta eaque itaque unde minima alias a quam nulla cum natus, lab
-            ore, explicabo obcaecati nemo, nihil mollitia voluptas harum voluptatibus ipsa maiores.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sol
-            uta eaque itaque unde minima alias a quam nulla cum natus, lab
-            ore, explicabo obcaecati nemo, nihil mollitia voluptas harum voluptatibus ipsa maiores.
+            When calculators first started becoming popular in the mid-20th century, they were seen
+            as revolutionary
+            devices that could perform complex mathematical calculations quickly and accurately.
+            Similarly,
+            today&apos;s advanced AI models like ChatGPT are also seen as revolutionary devices that
+            can perform a wide range
+            of tasks, including language processing and prediction, with speed and accuracy.
+            While calculators and AI
+            models like ChatGPT may seem very different on the surface, both are examples
+            of technological advancements
+            that have changed the way we approach problem-solving and decision-making.
+
           </p>
         </main>
       </>
